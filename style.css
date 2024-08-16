@@ -402,7 +402,7 @@ h3 {
 
   .register_btn button {
     position: relative;
-    top: -200px;
+    top:-20px;
     left: -30px;
 
   }
@@ -1270,7 +1270,7 @@ h3 {
 
 /* line 8, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 980px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -6859,6 +6859,11 @@ h6 {
   color: #c9c9c9
 }
 
+.main_committe_page{
+  padding:0px;
+  top: -100px;
+  position: relative;
+}
 #paragraph {
   text-align: justify;
 }
@@ -6986,6 +6991,7 @@ ol li {
 
 .cm .cm-item h1 {
   color: #4e036b;
+  padding: 20px;
 }
 
 .cm .cm-item div div p b {
