@@ -6877,12 +6877,12 @@ h6 {
 
 .about_heading1 {
   border-bottom: 2px solid violet;
-  width: 30%;
+  width: 53%;
 }
 
 .about_heading {
   border-bottom: 2px solid violet;
-  width: 35%;
+  width: 39%;
 }
 
 .nav-item {
@@ -6905,6 +6905,9 @@ h6 {
 
   .depertment_area #myTab {
     grid-template-columns: 1fr;
+  }
+  .about_heading1{
+    width: 100%;
   }
 }
 
@@ -6969,6 +6972,7 @@ ol li {
   text-align: center;
 }
 
+
 .cm-item div {
   padding: 10px;
   display: flex;
@@ -6989,6 +6993,26 @@ ol li {
   font-size: 20px;
 }
 
+.card_id{
+  background-color: #f1f5f9;
+  box-shadow: .8px 0px 8px #e5e7eb;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+
+
+}
+.card_id_single{
+  background-color: #f1f5f9;
+  box-shadow: .8px 0px 8px #e5e7eb;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+  margin-left: 35%;
+  max-width: 30%;
+
+}
 @media only screen and (max-width: 800px) {
   .cm-item div {
     flex-direction: column;
@@ -6997,6 +7021,11 @@ ol li {
   #key_note {
     position: relative;
     left: -30px;
+  }
+  .card_id_single{
+  max-width: 90%;
+  margin-left: 5%;
+
   }
 }
 
